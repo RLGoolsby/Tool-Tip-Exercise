@@ -1,3 +1,9 @@
+body{
+  width: 80%;
+  text-align: center;
+  margin-top: 120px;
+}
+
 /* Popup container - can be anything you want */
 .popup {
     position: relative;
@@ -12,17 +18,18 @@
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
+    width: 170px;
+    background-color: #fff;
+    color: red;
     text-align: center;
     border-radius: 6px;
+    border: 1px solid red;
     padding: 8px 0;
     position: absolute;
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -80px;
+    /* margin-left: -80px; */
 }
 
 /* Popup arrow */
@@ -30,8 +37,8 @@
     content: "";
     position: absolute;
     top: 100%;
-    left: 50%;
-    margin-left: -5px;
+    right: 60%;
+    /* margin-left: -5px; */
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
